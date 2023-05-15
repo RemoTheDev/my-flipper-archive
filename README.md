@@ -31,7 +31,7 @@ By using the codes, you acknowledge that you have read and understood this discl
 ## Payloads
 
 |System|Category|Name|PAP|
-|--|--|--|--|--|
+|--|--|--|--|
 |Windows|Credentials|[WiFi Windows Passwords](https://github.com/RemoTheDev/my-flipper-archive/tree/main/WiFiPasswords_Windows)|🟡|
 
 
