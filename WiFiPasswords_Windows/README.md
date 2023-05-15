@@ -24,6 +24,7 @@ Then clears run history.
 * Plug in your device
 * Invoke 2 netsh commands
 * Invoke-WebRequest will be entered in the Run Box to send the content
+* Invoke-powershell command to remove 'Run' history values from Registry
 
 ENG 🇺🇸
 ```powershell
