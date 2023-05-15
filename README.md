@@ -21,19 +21,20 @@ By using the codes, you acknowledge that you have read and understood this discl
 
 </div>
 
+## BadUSB 
 
-## PlugAndPlay (PaP) Legend
+### BadUSB PlugAndPlay (PaP) Legend
 
 - 🟢 Complete PaP - You must do nothing
 - 🟡 Partial PaP - Requires manual editting of a webhook to one of your own
 - 🔴 No PaP - Manual effort required
 
 
-## Payloads
+### BadUSB Payloads
 
 |System|Category|Name|PAP|
 |--|--|--|--|
-|Windows|Credentials|[WiFi Windows Passwords](https://github.com/RemoTheDev/my-flipper-archive/tree/main/WiFiPasswords_Windows)|🟡|
+|Windows|Credentials|[WiFi Windows Passwords](https://github.com/RemoTheDev/my-flipper-archive/tree/main/BadUSB/WiFiPasswords_Windows)|🟡|
 
 
 ## FAQs
