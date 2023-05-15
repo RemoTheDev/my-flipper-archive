@@ -46,5 +46,6 @@ By using the codes, you acknowledge that you have read and understood this discl
 ## Credits
 
 - [RemoTheDev](https://remothe.dev)
-- [Aleff](https://aleff-github.github.io/)
+- [Aleff](https://aleff-github.github.io/) - BadUSB script 
+- [Gioman101](https://github.com/Gioman101/FlipperAmiibo/) - FlipperAmiibo
 
