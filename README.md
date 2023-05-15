@@ -13,10 +13,11 @@
 
 <div align=center>
 
-The code provided in this repository is only intended for educational and infromational uses. 
-It is a personal collection of code and scripts from myself and other authors where all will be credited.
-Please do not use the codes without understanding what it does or the effects that it can cause; please use at your own risk.
-By using the codes, you acknowledge that you have read and understood this disclaimer and its contents.
+The code provided in this repository is only intended for educational and infromational uses. <br />
+It is a personal collection of code and scripts from myself and other authors where all will be credited.<br />
+Please do not use the codes without understanding what it does or the effects that it can cause.<br />
+If you chosose to use the codes in this repository, you do so at your own risk. I am not responsible for any damages, losses, or legal issues that may arise from using the codes.<br />
+By using the codes, you acknowledge that you have read and understood this disclaimer and its contents.<br />
 
 </div>
 
