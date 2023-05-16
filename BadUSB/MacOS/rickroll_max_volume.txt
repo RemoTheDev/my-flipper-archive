@@ -1,0 +1,35 @@
+REM ###################################################################
+REM #                                                                 |
+REM # ID 1234:5678 Apple:Keyboard                                     |
+REM # You can change these values to VID/PID of original Apple        |
+REM # keyboard to bypass Keyboard Setup Assistant                     |
+REM #                                                                 |
+REM # Title:	macOS rickroll                                        |
+REM # Author:	RemoTheDev                                            |
+REM # Description: Opens a rickroll in YouTube in full screen         | 
+REM # at maximum volume.                                              |
+REM # Target:	macOS 11.0+                                           |
+REM # Version:	1.0                                                   |
+REM # Category:	Prank                                                 |
+REM # Source:                                                         |
+REM #                                                                 |
+REM ###################################################################
+
+DELAY 1000
+GUI SPACE
+DELAY 100
+STRING terminal
+DELAY 100
+ENTER
+DELAY 150
+STRING open 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+ENTER
+DELAY 100
+SPACE
+DELAY 1000
+GUI TAB
+DELAY 10
+STRING osascript -e 'set volume 10' && killall Terminal
+ENTER
+DELAY 1500
+STRING f
