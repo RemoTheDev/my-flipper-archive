@@ -35,7 +35,8 @@ By using the codes, you acknowledge that you have read and understood this discl
 
 |System|Category|Name|PAP|
 |--|--|--|--|
-|Windows|Credentials|[WiFi Windows Passwords](https://github.com/RemoTheDev/remo-flipper-archive/tree/main/BadUSB/WiFiPasswords_Windows)|🟡|
+|Windows|Credentials|[WiFi Windows Passwords](https://github.com/RemoTheDev/remo-flipper-archive/tree/main/BadUSB/Windows/WiFiPasswords_Windows)|🟡|
+|MacOS|Prank|[RickRoll Maximum Volume](https://github.com/RemoTheDev/remo-flipper-archive/tree/main/BadUSB/MacOS)|🟢|
 
 
 ## FAQs
