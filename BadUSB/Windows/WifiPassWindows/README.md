@@ -7,11 +7,8 @@ It is made to be used with a [Flipper Zero](https://flipperzero.one/) device, us
 # Files
 ### Powershell scripts
 - `Wifi-Stealer-Discord.ps1` - The main script, commented for readability
-- `Wifi-Stealer-Discord_minified.ps1` - The minified version of the script (no comments, one line)
 ### Duckyscript files
-- `Wifi-Stealer-Discord.txt` - A duckyscript version of the script, commented for readability
-- `Wifi-Stealer-Discord_(Any-keyboard-layout).txt` - A duckyscript version of the script for any keyboard layout, commented for readability (for Flipper Zero)
-- `Wifi-Stealer-Discord_(One_line).txt` - A duckyscript version of the script using the minified version of the script (for Flipper Zero)
+- `Wifi-Stealer-Discord_Quick.txt` - A duckyscript version of the script using a minified/efficent version of the script (for Flipper Zero) pulling from webpage powershell script.
 
 # Usage
 Replace `https://discord.com/api/webhooks/<channel_id>/<webhook_id>` with your own [webhook url](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks).
