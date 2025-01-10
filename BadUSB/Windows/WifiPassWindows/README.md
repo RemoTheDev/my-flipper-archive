@@ -23,3 +23,8 @@ powershell -ExecutionPolicy Bypass -File Wifi-Stealer-Discord.ps1
 
 # Result
 ![image](https://user-images.githubusercontent.com/54336210/251186081-3aa3261c-d14d-4ae1-a1ef-136f005d8705.png)
+
+## Credits
+
+- [RemoTheDev](https://remothe.dev) - Modified script and deleted redundancies for subjectively more efficent use and less space.
+- [AlexZeGamer](https://gist.github.com/AlexZeGamer) - BadUSB script foundation
