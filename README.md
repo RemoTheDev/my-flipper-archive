@@ -36,7 +36,9 @@ By using the codes, you acknowledge that you have read and understood this discl
 |System|Category|Name|PAP|
 |--|--|--|--|
 |Windows|Credentials|[WiFi Windows Passwords](https://github.com/RemoTheDev/remo-flipper-archive/tree/main/BadUSB/Windows/WiFiPasswords_Windows)|🟡|
+|Windows|Credentials|[WiFi Pass Windows (Table Format)](https://github.com/RemoTheDev/remo-flipper-archive/tree/main/BadUSB/Windows/WifiPassWindows)|🟡|
 |MacOS|Prank|[RickRoll Maximum Volume](https://github.com/RemoTheDev/remo-flipper-archive/tree/main/BadUSB/MacOS)|🟢|
+
 
 
 ## FAQs
@@ -49,6 +51,7 @@ By using the codes, you acknowledge that you have read and understood this discl
 
 - [RemoTheDev](https://remothe.dev)
 - [slyfuldragon](https://git.slyfuldragon.dev)
-- [Aleff](https://aleff-github.github.io/) - BadUSB script 
+- [Aleff](https://aleff-github.github.io/) - BadUSB script foundation
 - [Gioman101](https://github.com/Gioman101/FlipperAmiibo/) - FlipperAmiibo
+- [AlexZeGamer](https://gist.github.com/AlexZeGamer) - BadUSB script foundation
 
