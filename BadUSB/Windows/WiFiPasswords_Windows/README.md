@@ -34,3 +34,8 @@ powershell "Remove-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentV
 ```
 
 You must put your Discord webhook into the variable $discord='\<your-webhook-here>'
+
+## Credits
+
+- [RemoTheDev](https://remothe.dev) - Modified script and deleted redundancies for subjectively more efficent use and less space.
+- [Aleff](https://aleff-github.github.io/) - BadUSB script foundation
