@@ -30,7 +30,7 @@ powershell "Remove-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentV
 4. Run the script from the Flipper Zero in the `Bad USB` menu
 
 # Result
-![image](https://user-images.githubusercontent.com/54336210/251186081-3aa3261c-d14d-4ae1-a1ef-136f005d8705.png)
+![image](https://github.com/user-attachments/assets/b780eb21-5353-4df1-848f-64ebcf47cb9e)
 
 ## Credits
 
