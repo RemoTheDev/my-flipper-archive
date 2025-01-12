@@ -14,11 +14,11 @@
 
 <div align=center>
 
-The code provided in this repository is only intended for educational and infromational uses. <br />
+The code provided in this repository is only intended for educational and informational uses. <br />
 It is a personal collection of code and scripts from myself and other authors where all will be credited.<br />
-Please do not use the codes without understanding what it does or the effects that it can cause.<br />
-If you chosose to use the codes in this repository, you do so at your own risk. I am not responsible for any damages, losses, or legal issues that may arise from using the codes.<br />
-By using the codes, you acknowledge that you have read and understood this disclaimer and its contents.<br />
+Please do not use the codes without understanding what it does or the effects that they can cause.<br />
+If you choose to use the codes in this repository, you do so at your own risk. I am not responsible for any damages, losses, or legal issues arising from using the codes.<br />
+By using the codes, you let me know that you have read and understood this disclaimer and its contents.<br />
 
 </div>
 
@@ -27,7 +27,7 @@ By using the codes, you acknowledge that you have read and understood this discl
 ### BadUSB PlugAndPlay (PaP) Legend
 
 - 🟢 Complete PaP - You must do nothing
-- 🟡 Partial PaP - Requires manual editting of a webhook to one of your own
+- 🟡 Partial PaP - Requires manual editing of a webhook to one of your own
 - 🔴 No PaP - Manual effort required
 
 
